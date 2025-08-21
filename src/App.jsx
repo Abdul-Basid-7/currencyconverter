@@ -1,8 +1,11 @@
+import ConditionalRender from "./components/conditionalrendering"
+import ControlComp from "./components/controlledcomp"
+
 function App() {
 
   return (
     <>
-      <h1>hello</h1>
+      <ConditionalRender/>
     </>
   )
 }
