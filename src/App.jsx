@@ -1,11 +1,11 @@
-import ConditionalRender from "./components/conditionalrendering"
-import ControlComp from "./components/controlledcomp"
+import React from 'react';
 
 function App() {
 
   return (
     <>
-      <ConditionalRender/>
+      <h1 className='text-3xl bg-orange-500'>Currency Converter</h1>
+      
     </>
   )
 }
